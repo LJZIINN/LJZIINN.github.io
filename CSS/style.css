@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#playButton {
+    font-size: 16px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid rgb(143, 0, 161);
+    cursor: pointer;
+    background: rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+#playButton:hover {
+    height: 115px;
+    width: 115px;
+}
